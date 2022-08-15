@@ -1,6 +1,6 @@
 {
     "name": "@nativescript-community/md5",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "NativeScript plugin for fast MD5 computation for files",
     "main": "index",
     "typings": "index.d.ts",
@@ -44,5 +44,6 @@
         "url": "https://github.com/nativescript-community/md5"
     },
     "license": "Apache-2.0",
-    "readmeFilename": "README.md"
+    "readmeFilename": "README.md",
+    "gitHead": "3944f3a9ba1b39bbab5226d5fce773c7c4860c24"
 }
