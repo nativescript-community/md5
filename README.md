@@ -25,7 +25,7 @@
 	</p>
 
 <p align="center">
-  <b>NativeScript plugin for CARTO Mobile SDK</b></br>
+  <b>NativeScript plugin for fast MD5 computation for files</b></br>
   <sub><sub>
 </p>
 
@@ -42,10 +42,6 @@
 
 * [Installation](#installation)
 * [API](#api)
-* [Usage in Svelte](#usage-in-svelte)
-	* [Examples](#examples)
-* [Usage in Vue](#usage-in-vue)
-	* [Examples](#examples-1)
 * [Demos and Development](#demos-and-development)
 	* [Setup](#setup)
 	* [Build](#build)
@@ -73,29 +69,6 @@ Run the following command from the root of your project:
 
 The API documentation for this plugin is available [here](https://nativescript-community.github.io/md5/).
 
-
-[](#usage-in-svelte)
-
-
-[](#usage-in-svelte)
-
-## Usage in Svelte
-
-### Examples
-
-- [Basic Raster](demo-snippets/svelte/BasicRaster.svelte)
-
-
-[](#usage-in-vue)
-
-
-[](#usage-in-vue)
-
-## Usage in Vue
-
-### Examples
-
-- [Basic Raster](demo-snippets/vue/BasicRaster.vue)
 
 
 [](#demos-and-development)
