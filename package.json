@@ -23,7 +23,8 @@
         "start": "./node_modules/.bin/ntl -A -s 15 -o",
         "submodules": "git submodule update --init",
         "sync": "node ./tools/sync.js",
-        "update": "node ./tools/update.js"
+        "update": "node ./tools/update.js",
+        "doc": "node tools/builddoc.mjs && git add docs/* && git commit -m \"chore:doc\""
     },
     "commitlint": {
         "extends": [
@@ -31,7 +32,7 @@
         ]
     },
     "dependencies": {
-        "@nativescript-community/plugin-seed-tools": "file:tools"
+        "@nativescript-community/plugin-seed-tools": "link:tools"
     },
     "ntl": {
         "descriptions": {
@@ -40,5 +41,10 @@
             "clean": "Clean the local environment.",
             "watch": "Watch for changes in the plugin source and re-build."
         }
+    },
+    "engines": {
+        "npm": "please use yarn or pnpm",
+        "yarn": ">= 1.19.1",
+        "pnpm": ">= 7.0.0"
     }
 }
