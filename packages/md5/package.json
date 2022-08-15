@@ -1,6 +1,6 @@
 {
     "name": "@nativescript-community/md5",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "NativeScript plugin for fast MD5 computation for files",
     "main": "index",
     "typings": "index.d.ts",
