@@ -1,0 +1,4 @@
+sync
+*.old
+*.aar*
+*.framework*

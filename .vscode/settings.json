@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "schema": true
+    },
+    "search.exclude": {
+        "src/**/*.js": true,
+        "src/**/*.js.map": true
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "sourceMap": false,
+        "plugins": []
+    },
+    "include": ["src/**/*.d.ts"],
+    "exclude": ["src/typings", "**/*android*", "**/*ios*"]
+}

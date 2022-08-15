@@ -1,0 +1,48 @@
+{
+    "name": "@nativescript-community/md5",
+    "version": "1.0.0",
+    "description": "NativeScript plugin for fast MD5 computation for files",
+    "main": "index",
+    "typings": "index.d.ts",
+    "sideEffects": false,
+    "scripts": {
+        "build": "npm run tsc && npm run readme",
+        "build.all": "npm run build && npm run build.angular",
+        "readme": "../../node_modules/.bin/readme generate -c ../../tools/readme/blueprint.json",
+        "tsc": "../../node_modules/.bin/cpy '**/*.d.ts' '../../packages/md5' --parents --cwd=../../src/md5 && ../../node_modules/.bin/tsc -skipLibCheck -d",
+        "clean": "../../node_modules/.bin/rimraf ./*.d.ts ./*.js ./*.js.map"
+    },
+    "nativescript": {
+        "platforms": {
+            "android": "6.0.0",
+            "ios": "6.0.0"
+        }
+    },
+    "keywords": [
+        "NativeScript",
+        "JavaScript",
+        "Android",
+        "iOS",
+        "map",
+        "carto",
+        "vue",
+        "vue.js",
+        "svelte",
+        "nativescript-angular",
+        "nativescript-vue"
+    ],
+    "author": {
+        "name": "Martin Guillon",
+        "email": "martin@akylas.fr"
+    },
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/nativescript-community/md5/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nativescript-community/md5"
+    },
+    "license": "Apache-2.0",
+    "readmeFilename": "README.md"
+}

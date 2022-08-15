@@ -1,0 +1,9 @@
+{
+    "extends": "./tools/tsconfig",
+    "compilerOptions": {
+        "paths": {
+            "@nativescript-community/md5": ["src/md5"],
+            "@nativescript-community/md5/*": ["src/md5/*"]
+        }
+    }
+}
