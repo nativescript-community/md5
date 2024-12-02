@@ -4,6 +4,6 @@
         "rootDir": "../../src/md5",
         "outDir": "./"
     },
-    "include": ["../../src/md5/**/*", "../../references.d.ts", "../../src/references.d.ts"],
+    "include": ["../../src/md5/**/*", "../../references.d.ts", "../../tools/references.d.ts", "../../src/references.d.ts"],
     "exclude": ["../../src/ui-pager/angular/**"]
 }
