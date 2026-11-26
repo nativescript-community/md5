@@ -1,4 +1,12 @@
-sync
+node_modules/
+pnpm-global/
+bin/
+hooks/
+*.ts
 *.old
-*.aar*
-*.framework*
+tsconfig.json
+!*.d.ts
+*.aar
+*.jar
+blueprint.md
+!nativescript.config.ts
